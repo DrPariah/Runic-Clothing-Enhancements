@@ -1,0 +1,29 @@
+[
+  {
+    "type": "clothing_mod",
+    "id": "chitin_insert",
+    "flag": "chitin_insert",
+    "item": "chitin_piece",
+    "implement_prompt": "Insert chitin pieces",
+    "destroy_prompt": "Remove chitin pieces",
+    "mod_value": [
+      { "type": "bash", "value": 1, "proportion": [ "thickness", "coverage" ] },
+      { "type": "cut", "value": 2, "proportion": [ "thickness", "coverage" ] },
+      { "type": "encumbrance", "value": 2, "round_up": true, "proportion": [ "thickness", "coverage" ] }
+    ]
+   },
+  {
+    "type": "clothing_mod",
+    "id": "acidchitin_insert",
+    "flag": "acidchitin_insert",
+    "item": "acidchitin_piece",
+    "implement_prompt": "Insert biosilicified chitin pieces",
+    "destroy_prompt": "Remove biosilicified chitin pieces",
+    "mod_value": [
+      { "type": "bash", "value": 1.5, "round_up": true, "proportion": [ "thickness", "coverage" ] },
+      { "type": "cut", "value": 2.5, "round_up": true, "proportion": [ "thickness", "coverage" ] },
+	  { "type": "acid", "value": 1.5, "round_up": true, "proportion": [ "thickness", "coverage" ] },
+      { "type": "encumbrance", "value": 2.5, "round_up": true, "proportion": [ "thickness", "coverage" ] }
+    ]
+   }
+  ]

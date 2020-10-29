@@ -1,0 +1,111 @@
+[{
+		"id": "tailors_kit",
+		"type": "TOOL",
+		"name": {
+			"str": "tailor's kit"
+		},
+		"description": "This is a high quality kit consisting of a variety of needles, some plastic spools for thread, some small scissors, and an awl.  Use a tailor's kit to customize your clothing and armor.  This uses your tailoring skill.",
+		"weight": "100 g",
+		"volume": "500 ml",
+		"price": 1000,
+		"to_hit": -2,
+		"material": ["plastic", "steel"],
+		"symbol": ";",
+		"color": "red",
+		"ammo": "thread",
+		"sub": "sewing_kit",
+		"initial_charges": 50,
+		"max_charges": 400,
+		"charges_per_use": 1,
+		"qualities": [
+			["SEW", 4],
+			["SEW_CURVED", 1],
+			["KNIT", 1],
+			["LEATHER_AWL", 2],
+			["CUT", 1]
+		],
+		"use_action": [{
+				"type": "repair_item",
+				"item_action_type": "repair_fabric",
+				"materials": ["cotton", "leather", "lycra", "nylon", "wool", "fur", "faux_fur", "nomex", "kevlar", "neoprene", "gutskin"],
+				"skill": "tailor",
+				"tool_quality": 1,
+				"cost_scaling": 0.1,
+				"move_cost": 800
+			},
+			{
+				"type": "sew_advanced",
+				"materials": [
+					"cotton",
+					"leather",
+					"lycra",
+					"nylon",
+					"wool",
+					"fur",
+					"faux_fur",
+					"nomex",
+					"kevlar",
+					"neoprene",
+					"gutskin",
+					"plastic",
+					"kevlar_rigid"
+				],
+				"skill": "tailor",
+				"clothing_mods": ["leather_padded", "steel_padded", "kevlar_padded", "furred", "wooled", "chitin_insert", "acidchitin_insert",
+					"lesser_featherweight_enchantment", "lesser_corrosionward_enchantment", "lesser_refreshingchill_enchantment", "lesser_warpspace_enchantment", "lesser_soothingwarmth_enchantment", "lesser_flameward_enchantment", "lesser_bladeturn_enchantment", "lesser_impactshield_enchantment", "featherweight_enchantment", "corrosionward_enchantment", "refreshingchill_enchantment", "warpspace_enchantment", "soothingwarmth_enchantment", "flameward_enchantment", "bladeturn_enchantment", "impactshield_enchantment",
+					"greater_featherweight_enchantment", "greater_corrosionward_enchantment", "greater_refreshingchill_enchantment", "greater_warpspace_enchantment", "greater_soothingwarmth_enchantment", "greater_flameward_enchantment", "greater_bladeturn_enchantment", "greater_impactshield_enchantment"
+				]
+			}
+		],
+		"flags": ["ALLOWS_REMOTE_USE"]
+	},
+	{
+		"id": "mtailors_kit",
+		"copy-from": "tailors_kit",
+		"type": "TOOL",
+		"name": "enchanted tailor's kit",
+		"description": "This is a high quality, engraved steel kit with a variety of needles, some plastic spools for thread, some small scissors, even a small heating element for melting and joining plastic.  Use a tailor's kit to customize your clothing and armor.  This uses your tailoring skill.  It also contains one of those magic spiders that constantly, if slowly, makes new thread.",
+		"price": 100000,
+		"material": ["steel"],
+		"initial_charges": 500,
+		"max_charges": 1000,
+		"charges_per_use": 1,
+		"artifact_data": {
+			"charge_type": "ARTC_TIME"
+		},
+		"sub": "sewing_kit",
+		"use_action": [{
+				"type": "repair_item",
+				"item_action_type": "repair_fabric",
+				"materials": [
+					"cotton",
+					"leather",
+					"wool",
+					"fur",
+					"faux_fur",
+					"nomex",
+					"kevlar",
+					"neoprene",
+					"gutskin",
+					"black_dragon_hide",
+					"demon_chitin"
+				],
+				"skill": "tailor",
+				"tool_quality": 1,
+				"cost_scaling": 0.1,
+				"move_cost": 500
+			},
+			{
+				"type": "sew_advanced",
+				"materials": ["cotton", "leather", "wool", "fur", "faux_fur", "nomex", "kevlar", "neoprene", "gutskin", "plastic", "kevlar_rigid"],
+				"skill": "tailor",
+				"clothing_mods": ["leather_padded", "steel_padded", "kevlar_padded", "furred", "wooled", "chitin_insert", "acidchitin_insert",
+					"lesser_featherweight_enchantment", "lesser_corrosionward_enchantment", "lesser_refreshingchill_enchantment", "lesser_warpspace_enchantment", "lesser_soothingwarmth_enchantment", "lesser_flameward_enchantment", "lesser_bladeturn_enchantment", "lesser_impactshield_enchantment",
+					"featherweight_enchantment", "corrosionward_enchantment", "refreshingchill_enchantment", "warpspace_enchantment", "soothingwarmth_enchantment", "flameward_enchantment", "bladeturn_enchantment", "impactshield_enchantment",
+					"greater_featherweight_enchantment", "greater_corrosionward_enchantment", "greater_refreshingchill_enchantment", "greater_warpspace_enchantment", "greater_soothingwarmth_enchantment", "greater_flameward_enchantment", "greater_bladeturn_enchantment", "greater_impactshield_enchantment"
+				]
+			}
+		],
+		"flags": ["ALLOWS_REMOTE_USE"]
+	}
+]

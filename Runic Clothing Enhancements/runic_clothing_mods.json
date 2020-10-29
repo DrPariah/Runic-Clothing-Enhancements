@@ -1,0 +1,266 @@
+[
+  {
+    "type": "clothing_mod",
+    "id": "lesser_corrosionward_enchantment",
+    "flag": "lesser_corrosionward_enchantment",
+    "item": "scrap_copper",
+    "implement_prompt": "Enchant with Lesser Corrosion Warding",
+    "destroy_prompt": "Remove enchantment",
+    "mod_value": [
+      { "type": "acid", "value": 1.5, "round_up": true, "proportion": [ "thickness", "coverage" ] }
+      ]
+  },
+  {
+    "type": "clothing_mod",
+    "id": "lesser_refreshingchill_enchantment",
+    "flag": "lesser_refreshingchill_enchantment",
+    "item": "scrap_copper",
+    "implement_prompt": "Enchant with Lesser Refreshing Chill",
+    "destroy_prompt": "Remove enchantment",
+    "mod_value": [
+      { "type": "warmth", "value": -1.5, "round_up": true, "proportion": [ "thickness", "coverage" ] }
+    ]
+  },
+  {
+    "type": "clothing_mod",
+    "id": "lesser_soothingwarmth_enchantment",
+    "flag": "lesser_soothingwarmth_enchantment",
+    "item": "scrap_copper",
+    "implement_prompt": "Enchant with Lesser Soothing Warmth",
+    "destroy_prompt": "Remove enchantment",
+    "mod_value": [
+      { "type": "warmth", "value": 1.5, "round_up": true, "proportion": [ "thickness", "coverage" ] }
+    ]
+  },
+  {
+    "type": "clothing_mod",
+    "id": "lesser_warpspace_enchantment",
+    "flag": "lesser_warpspace_enchantment",
+    "item": "scrap_copper",
+    "implement_prompt": "Enchant with Lesser Warp Storage Space",
+    "destroy_prompt": "Remove enchantment",
+    "mod_value": [
+      { "type": "storage", "value": 1.5, "round_up": true, "proportion": [ "thickness", "coverage" ] }
+    ]
+  },
+  {
+    "type": "clothing_mod",
+    "id": "lesser_featherweight_enchantment",
+    "flag": "lesser_featherweight_enchantment",
+    "item": "scrap_copper",
+    "implement_prompt": "Enchant with Lesser Featherweight",
+    "destroy_prompt": "Remove enchantment",
+    "mod_value": [
+      { "type": "encumbrance", "value": -1.5, "round_up": true, "proportion": [ "thickness", "coverage" ] }
+    ]
+  },
+ {
+    "type": "clothing_mod",
+    "id": "lesser_flameward_enchantment",
+    "flag": "lesser_flameward_enchantment",
+    "item": "scrap_copper",
+    "implement_prompt": "Enchant with Lesser Flameward",
+    "destroy_prompt": "Remove enchantment",
+    "mod_value": [
+      { "type": "fire", "value": 1.5, "round_up": true, "proportion": [ "thickness", "coverage" ] } 
+    ]
+  },
+{
+    "type": "clothing_mod",
+    "id": "lesser_bladeturn_enchantment",
+    "flag": "lesser_bladeturn_enchantment",
+    "item": "scrap_copper",
+    "implement_prompt": "Enchant with Lesser Bladeturn",
+    "destroy_prompt": "Remove enchantment",
+    "mod_value": [
+      { "type": "cut", "value": 1.5, "round_up": true, "proportion": [ "thickness", "coverage" ] } 
+    ]
+  },
+{
+    "type": "clothing_mod",
+    "id": "lesser_impactshield_enchantment",
+    "flag": "lesser_impactshield_enchantment",
+    "item": "scrap_copper",
+    "implement_prompt": "Enchant with Lesser Impactshield",
+    "destroy_prompt": "Remove enchantment",
+    "mod_value": [
+      { "type": "bash", "value": 1.5, "round_up": true, "proportion": [ "thickness", "coverage" ] } 
+    ]
+  },
+ {
+    "type": "clothing_mod",
+    "id": "corrosionward_enchantment",
+    "flag": "corrosionward_enchantment",
+    "item": "silver_small",
+    "implement_prompt": "Enchant with Corrosion Warding",
+    "destroy_prompt": "Remove enchantment",
+    "mod_value": [
+      { "type": "acid", "value": 2.5, "round_up": true, "proportion": [ "thickness", "coverage" ] }
+      ]
+  },
+  {
+    "type": "clothing_mod",
+    "id": "refreshingchill_enchantment",
+    "flag": "refreshingchill_enchantment",
+    "item": "silver_small",
+    "implement_prompt": "Enchant with Refreshing Chill",
+    "destroy_prompt": "Remove enchantment",
+    "mod_value": [
+      { "type": "warmth", "value": -2.5, "round_up": true, "proportion": [ "thickness", "coverage" ] }
+    ]
+  },
+  {
+    "type": "clothing_mod",
+    "id": "soothingwarmth_enchantment",
+    "flag": "soothingwarmth_enchantment",
+    "item": "silver_small",
+    "implement_prompt": "Enchant with Soothing Warmth",
+    "destroy_prompt": "Remove enchantment",
+    "mod_value": [
+      { "type": "warmth", "value": 2.5, "round_up": true, "proportion": [ "thickness", "coverage" ] }
+    ]
+  },
+  {
+    "type": "clothing_mod",
+    "id": "warpspace_enchantment",
+    "flag": "warpspace_enchantment",
+    "item": "silver_small",
+    "implement_prompt": "Enchant with Warp Storage Space",
+    "destroy_prompt": "Remove enchantment",
+    "mod_value": [
+      { "type": "storage", "value": 2.5, "round_up": true, "proportion": [ "thickness", "coverage" ] }
+    ]
+  },
+  {
+    "type": "clothing_mod",
+    "id": "featherweight_enchantment",
+    "flag": "featherweight_enchantment",
+    "item": "silver_small",
+    "implement_prompt": "Enchant with Featherweight",
+    "destroy_prompt": "Remove enchantment",
+    "mod_value": [
+      { "type": "encumbrance", "value": -2.5, "round_up": true, "proportion": [ "thickness", "coverage" ] }
+    ]
+  },
+ {
+    "type": "clothing_mod",
+    "id": "flameward_enchantment",
+    "flag": "flameward_enchantment",
+    "item": "silver_small",
+    "implement_prompt": "Enchant with Flameward",
+    "destroy_prompt": "Remove enchantment",
+    "mod_value": [
+      { "type": "fire", "value": 2.5, "round_up": true, "proportion": [ "thickness", "coverage" ] } 
+    ]
+  },
+{
+    "type": "clothing_mod",
+    "id": "bladeturn_enchantment",
+    "flag": "bladeturn_enchantment",
+    "item": "silver_small",
+    "implement_prompt": "Enchant with Bladeturn",
+    "destroy_prompt": "Remove enchantment",
+    "mod_value": [
+      { "type": "cut", "value": 2.5, "round_up": true, "proportion": [ "thickness", "coverage" ] } 
+    ]
+  },
+{
+    "type": "clothing_mod",
+    "id": "impactshield_enchantment",
+    "flag": "impactshield_enchantment",
+    "item": "silver_small",
+    "implement_prompt": "Enchant with Impactshield",
+    "destroy_prompt": "Remove enchantment",
+    "mod_value": [
+      { "type": "bash", "value": 2.5, "round_up": true, "proportion": [ "thickness", "coverage" ] } 
+    ]
+  },
+{
+    "type": "clothing_mod",
+    "id": "greater_corrosionward_enchantment",
+    "flag": "greater_corrosionward_enchantment",
+    "item": "gold_small",
+    "implement_prompt": "Enchant with Greater Corrosion Warding",
+    "destroy_prompt": "Remove enchantment",
+    "mod_value": [
+      { "type": "acid", "value": 3.5, "round_up": true, "proportion": [ "thickness", "coverage" ] }
+      ]
+  },
+  {
+    "type": "clothing_mod",
+    "id": "greater_refreshingchill_enchantment",
+    "flag": "greater_refreshingchill_enchantment",
+    "item": "gold_small",
+    "implement_prompt": "Enchant with Greater Refreshing Chill",
+    "destroy_prompt": "Remove enchantment",
+    "mod_value": [
+      { "type": "warmth", "value": -3.5, "round_up": true, "proportion": [ "thickness", "coverage" ] }
+    ]
+  },
+  {
+    "type": "clothing_mod",
+    "id": "greater_soothingwarmth_enchantment",
+    "flag": "greater_soothingwarmth_enchantment",
+    "item": "gold_small",
+    "implement_prompt": "Enchant with Greater Soothing Warmth",
+    "destroy_prompt": "Remove enchantment",
+    "mod_value": [
+      { "type": "warmth", "value": 3.5, "round_up": true, "proportion": [ "thickness", "coverage" ] }
+    ]
+  },
+  {
+    "type": "clothing_mod",
+    "id": "greater_warpspace_enchantment",
+    "flag": "greater_warpspace_enchantment",
+    "item": "gold_small",
+    "implement_prompt": "Enchant with Greater Warp Storage Space",
+    "destroy_prompt": "Remove enchantment",
+    "mod_value": [
+      { "type": "storage", "value": 3.5, "round_up": true, "proportion": [ "thickness", "coverage" ] }
+    ]
+  },
+  {
+    "type": "clothing_mod",
+    "id": "greater_featherweight_enchantment",
+    "flag": "greater_featherweight_enchantment",
+    "item": "gold_small",
+    "implement_prompt": "Enchant with Greater Featherweight",
+    "destroy_prompt": "Remove enchantment",
+    "mod_value": [
+      { "type": "encumbrance", "value": -3.5, "round_up": true, "proportion": [ "thickness", "coverage" ] }
+    ]
+  },
+ {
+    "type": "clothing_mod",
+    "id": "greater_flameward_enchantment",
+    "flag": "greater_flameward_enchantment",
+    "item": "gold_small",
+    "implement_prompt": "Enchant with Greater Flameward",
+    "destroy_prompt": "Remove enchantment",
+    "mod_value": [
+      { "type": "fire", "value": 3.5, "round_up": true, "proportion": [ "thickness", "coverage" ] } 
+    ]
+  },
+{
+    "type": "clothing_mod",
+    "id": "greater_bladeturn_enchantment",
+    "flag": "greater_bladeturn_enchantment",
+    "item": "gold_small",
+    "implement_prompt": "Enchant with Greater Bladeturn",
+    "destroy_prompt": "Remove enchantment",
+    "mod_value": [
+      { "type": "cut", "value": 3.5, "round_up": true, "proportion": [ "thickness", "coverage" ] } 
+    ]
+  },
+{
+    "type": "clothing_mod",
+    "id": "greater_impactshield_enchantment",
+    "flag": "greater_impactshield_enchantment",
+    "item": "gold_small",
+    "implement_prompt": "Enchant with Greater Impactshield",
+    "destroy_prompt": "Remove enchantment",
+    "mod_value": [
+      { "type": "bash", "value": 3.5, "round_up": true, "proportion": [ "thickness", "coverage" ] } 
+    ]
+  }	
+]
