@@ -5,4 +5,4 @@ The enhancements do stack, and they can get somewhat crazy, so use your discreti
 UPDATE 2/13/24: Kept you waiting, huh?
 - fixed issues with invalid flags
 - added actual flags for the chitin inserts, and updated them roughly in line with the regular BN armor mod formula
-- Regular BN armor mods base their numbers off 1/2 (approximately, and rounded down) of the material resistance of the core material, and base their effect only on thickness. For the moment, the Runic mods will remain thickness and coverage on the grounds that they're magic. Coverage means more surface for the runic stencils, thickness means more for the magic to work from. 
+- Regular BN armor mods base their numbers off 1/2 (approximately, and rounded down) of the material resistance of the material used to mod, and base their effect only on thickness. For the moment, the Runic mods will remain based on thickness _and_ coverage on the grounds that they're magic. Coverage means more surface for the runic stencils, thickness means more for the magic to work from. 
