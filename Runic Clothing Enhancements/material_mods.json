@@ -1,5 +1,17 @@
 [
   {
+    "id": "chitin_insert",
+    "type": "json_flag",
+    "context": [ "ARMOR", "TOOL_ARMOR" ],
+    "info": "This article of clothing or armor has been plated with giant insect chitin, increasing defensive capabilities and encumbrance accordingly."
+  },
+  {
+    "id": "acidchitin_insert",,
+    "type": "json_flag",
+    "context": [ "ARMOR", "TOOL_ARMOR" ],
+    "info": "This article of clothing or armor has been plated with biosilicified giant insect chitin, increasing defensive capabilities accordingly along with acid resistance and encumbrance."
+  },
+  {
     "type": "clothing_mod",
     "id": "chitin_insert",
     "flag": "chitin_insert",
@@ -7,9 +19,10 @@
     "implement_prompt": "Insert chitin pieces",
     "destroy_prompt": "Remove chitin pieces",
     "mod_value": [
-      { "type": "bash", "value": 1, "proportion": [ "thickness", "coverage" ] },
-      { "type": "cut", "value": 2, "proportion": [ "thickness", "coverage" ] },
-      { "type": "encumbrance", "value": 2, "round_up": true, "proportion": [ "thickness", "coverage" ] }
+      { "type": "bash", "value": 2, "proportion": [ "thickness" ] },
+      { "type": "cut", "value": 2, "proportion": [ "thickness" ] },
+	  { "type": "bullet", "value": 1, "proportion": [ "thickness" ] },
+      { "type": "encumbrance", "value": 2.5, "round_up": true, "proportion": [ "thickness", "coverage" ] }
     ]
    },
   {
@@ -20,10 +33,11 @@
     "implement_prompt": "Insert biosilicified chitin pieces",
     "destroy_prompt": "Remove biosilicified chitin pieces",
     "mod_value": [
-      { "type": "bash", "value": 1.5, "round_up": true, "proportion": [ "thickness", "coverage" ] },
-      { "type": "cut", "value": 2.5, "round_up": true, "proportion": [ "thickness", "coverage" ] },
-	  { "type": "acid", "value": 1.5, "round_up": true, "proportion": [ "thickness", "coverage" ] },
-      { "type": "encumbrance", "value": 2.5, "round_up": true, "proportion": [ "thickness", "coverage" ] }
+      { "type": "bash", "value": 2, "round_up": true, "proportion": [ "thickness" ] },
+      { "type": "cut", "value": 2, "round_up": true, "proportion": [ "thickness" ] },
+	  { "type": "bullet", "value": 1, "proportion": [ "thickness" ] },
+	  { "type": "acid", "value": 6, "round_up": true, "proportion": [ "thickness" ] },
+      { "type": "encumbrance", "value": 3, "round_up": true, "proportion": [ "thickness", "coverage" ] }
     ]
    }
   ]
