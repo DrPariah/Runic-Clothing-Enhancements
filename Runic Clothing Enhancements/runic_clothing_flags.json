@@ -132,13 +132,13 @@
     "info": "This gear has been enchanted to <good>greatly increase its resistance to fire</good>."
   },
   {
-    "id": "bladeturn_enchantment",
+    "id": "greater_bladeturn_enchantment",
     "type": "json_flag",
     "context": [ "ARMOR", "TOOL_ARMOR" ],
     "info": "This gear has been enchanted to <good>greatly increase its resistance to cutting and slashing</good>."
   },
   {
-    "id": "impactshield_enchantment",
+    "id": "greater_impactshield_enchantment",
     "type": "json_flag",
     "context": [ "ARMOR", "TOOL_ARMOR" ],
     "info": "This gear has been enchanted to <good>greatly increase its resistance to bludgeoning and impacts</good>."
