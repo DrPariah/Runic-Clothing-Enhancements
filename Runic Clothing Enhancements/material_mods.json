@@ -6,7 +6,7 @@
     "info": "This article of clothing or armor has been plated with giant insect chitin, increasing defensive capabilities and encumbrance accordingly."
   },
   {
-    "id": "acidchitin_insert",,
+    "id": "acidchitin_insert",
     "type": "json_flag",
     "context": [ "ARMOR", "TOOL_ARMOR" ],
     "info": "This article of clothing or armor has been plated with biosilicified giant insect chitin, increasing defensive capabilities accordingly along with acid resistance and encumbrance."
