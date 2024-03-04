@@ -6,7 +6,8 @@
 		"skill_used": "fabrication",
 		"skills_required": ["spellcraft", 4],
 		"difficulty": 2,
-		"time": "120m",
+		"time": "15 m",
+		"batch_time_factors": [ 50, 5 ],
 		"autolearn": true,
 		"qualities": [{
 			"id": "CHISEL",
@@ -29,7 +30,8 @@
 		"skill_used": "fabrication",
 		"skills_required": ["spellcraft", 5],
 		"difficulty": 2,
-		"time": "120m",
+		"time": "15 m",
+		"batch_time_factors": [ 50, 5 ],
 		"autolearn": true,
 		"qualities": [{
 			"id": "CHISEL",
@@ -51,8 +53,9 @@
 		"subcategory": "CSC_ENCHANTED_TOOLS",
 		"skill_used": "fabrication",
 		"skills_required": ["spellcraft", 6],
+		"batch_time_factors": [ 50, 5 ],
 		"difficulty": 2,
-		"time": "120m",
+		"time": "15 m",
 		"autolearn": true,
 		"qualities": [{
 			"id": "CHISEL",
